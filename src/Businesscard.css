@@ -1,16 +1,144 @@
+body {
+  background-color: black;
+}
+
 .business-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 150px;
-    margin: 0 auto;
-    margin-top: calc(50vh - 75px); /* Centers the card vertically */
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-  }
-  
+  background-color: black !important;
+  width: 500px;
+  height: auto;
+  margin: 0px auto;
+  margin-top: calc(47vh - 400px);
+  /* Centers the card vertically */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.business-card:hover {
+  border: 1px solid rgb(50, 3, 126);
+  box-shadow: 0 8px 16px rgba(153, 0, 255, 0.4);
+}
+
+.business-card img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 20px 0px;
+  image-orientation: from-image;
+  object-fit: cover;
+  object-position: 50% 50%;
+  transition: 0.3s;
+}
+
+.business-card img:hover {
+  border: 1px solid rgb(153, 0, 255);
+  box-shadow: 0 8px 16px rgba(153, 0, 255, 0.4);
+}
+
+.business-card h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 0px;
+}
+
+.business-card h1:hover {
+  text-shadow: 0 8px 16px rgba(153, 0, 255, 0.8);
+
+}
+
+.business-card h2 {
+  color: #fff;
+  text-align: start;
+  font-size: 1.5rem;
+  padding: 0px 30px;
+}
+
+.business-card h2:hover {
+  text-shadow: 0 8px 16px rgba(153, 0, 255, 0.8);
+}
+
+.business-card p {
+  color: #fff;
+  text-align: start;
+  font-size: 0.8rem;
+  margin: 0px 30px;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.business-card h3 {
+  color: #fff;
+  text-align: start;
+  font-size: 1rem;
+  margin: 10px 30px;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.business-card h3:hover {
+  text-shadow: 0 8px 16px rgba(153, 0, 255, 0.9);
+}
+
+.business-card button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px 5px;
+  font-size: 0.8rem;
+  font-weight: 750;
+  background-color: rgb(100, 2, 165);
+  color: white;
+}
+
+.business-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 30px 0px;
+}
+
+.business-card .social {
+  background-color: black;
+  border: 1px solid rgb(100, 2, 165);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-right: 5px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.business-card .social:hover {
+  border: 1px solid rgb(153, 0, 255);
+  box-shadow: 0 8px 16px rgba(153, 0, 255, 0.4);
+  background-color: rgb(153, 0, 255);
+  cursor: pointer;
+}
+
+.social a {
+  text-decoration: none;
+  color: white;
+}
+
+.fun-fact p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+span {
+  font-size: 1.5rem;
+  text-shadow: 1px 2px #ef3550,
+    -1px 4px #f48fb1,
+    -1px 4px #7e57c2,
+    -1px 5px #2196f3,
+    -1px 6px #26c6da,
+    -1px 7px #43a047,
+    -1px 8px #eeff41,
+    -1px 8px #f9a825,
+    -1px 9px #ff5722;
+}
