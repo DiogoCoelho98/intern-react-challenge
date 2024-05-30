@@ -46,3 +46,16 @@ Feel free to extend the functionality and styling of this app. You can add more 
 ## Contact
 
 If you have any questions or need further assistance, please contact us.
+
+## My point of view
+
+I believe that simplicity is the key to solving the vast majority of problems we encounter. With that in mind, I decided to pursue a more minimalist design that also represents my extroverted personality and showcases some of my skills. I hope you like the final result.
+
+Thank you for your time and consideration.
+
+Sincerely,
+Diogo.
+
+email: diogocoelho19988@gmail.com
+linkedin: https://www.linkedin.com/in/diogo-coelho-9360a9268/
+
